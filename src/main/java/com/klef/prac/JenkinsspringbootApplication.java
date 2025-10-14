@@ -8,6 +8,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class JenkinsspringbootApplication extends SpringBootServletInitializer {
 
+    // Required for WAR deployment
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(JenkinsspringbootApplication.class);
