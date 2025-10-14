@@ -2,9 +2,10 @@ package com.klef.prac;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class JenkinsspringbootApplication {
+public class JenkinsspringbootApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsspringbootApplication.class, args);
